@@ -11,18 +11,18 @@ y='\033[33;1m'
 
 isi(){
         url=http://ip-api.com/
-        echo $y"Masukin IP Target : "
+        echo $y"Enter IP Target : "
         read ip
         curl -s $url$ip
-        echo $y"Tools by MR.xtWHITE(13) "
-        echo $y"Dan terimakasih kepada CYBER ATTACK ARMY "
+        echo $y"Tools by Adiixyz "
+        echo $y"Lets Go! "
 }
 
 perintah(){
-         echo $g"Masukan Nick Kamu : "
+         echo $g"Enter your nickname : "
          read nick
-         echo $g"Selamat datang di Cyber Attack Army $nick "
-         echo $y"Ingin menjelajah lebih dalam ? "
+         echo $g"Hi $nick "
+         echo $y"Want to explore deeper ? "
          read -p "y/n" piII
          if [ $piII = "y" ]; then
                  clear
@@ -36,15 +36,15 @@ perintah(){
 
 
 banner(){
-    echo $b"================MR.xtWHITE(13)================"
+    echo $b"================ADIIXYZ================"
     sleep 1
-    echo $y"Author : MR.xtWHITE(13) "
+    echo $y"Author : Adii_Andre "
     sleep 1
-    echo $y"Thanks to Cyber Attack Army "
+    echo $y"Yntkts "
     sleep 1
-    echo $y" WhatsApp +1 (315) 493-8588"
+    echo $y" WhatsApp 6281111111111"
     sleep 1
-    echo $b"=================MR.xtWHITE(13)================"
+    echo $b"=================ADIIXYZ================"
      sleep 1
      echo ""
 }
